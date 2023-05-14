@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.parent-container{
+    width: 100%;
+}
+.navbar{
+    padding-left: 70px;
+    padding-right: 0px;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(63, 122, 190);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.left-bar a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+} 
+.navbar a{
+    height: 100%;
+    font-size: 13px;
+    padding: 1px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navbar a{
+    font-size: 15px;
+    
+}
+.right-par img{
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(127, 158, 186);
+}
+.navbar .right-par a i{
+    margin: 0px 5px;
+    font-size: 13px;
+}
+.navbar .right-par a i .fa-bars{
+    font-size: 20px;
+}
+/* end navber */
+/* start section */
+.one {
+   min-height: 100vh;
+   background-image: url(main.jpg);
+   background-size: 100% 100%; 
+   display: flex;   
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    
+}
+.one h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.one p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px ;   
+}
+.one .search{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.one input{
+    width: 600px;
+    height: 70px;
+    padding: 16px;
+    font-size: 20px;
+    border: none !important;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one a:hover{
+    background-color:  rgb(203, 212, 223);
+    color: white;
+}
+.one button{
+    width: 80px;
+    height: 60px;
+    border: none !important;
+    font-size: 20px;
+    background-color:rgb(63, 122, 190);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+.servise{
+    min-height: 100vh;
+    padding: 50px;
+    width: 100%;
+}
+.servise a{
+    color: white;
+}
+.servise h3{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+.servise .perrent-service{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.servise .perrent-service .service-one{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://multitradegeneral.com/wp-content/uploads/2020/12/1500-0--600x500.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+   
+}
+.servise .perrent-service .service-two{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.be6b4e201dcb3ff1492b6e5dba63c8df?rik=EVw%2fi%2bz0YloV6g&pid=ImgRaw&r=0);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+}
+.servise .perrent-service .service-three{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://contentwriters.com/blog/wp-content/uploads/PPC2018.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+
+}
+.servise .perrent-service .service-four{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://resources.tallysolutions.com/mena/wp-content/themes/tally/assets/images/blog_default_image.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+
+}
+.servise .perrent-service .service-five{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/6b/eb/9a/6beb9a06f55deabaa3c2b4adef1e3fde.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+
+}
+.servise .perrent-service .service-six{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://assets-global.website-files.com/5ce6247122f44f2bd5edebbe/5e86f2c98ee7b828a1d2bba9_e-learning-p-1080.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+
+}
+.servise .perrent-service .service-seven{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://image.freepik.com/free-photo/microphones-soundmixer-nightclub_213438-461.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+
+}
+.servise .perrent-service .service-eight{
+    width: 24%;
+    height: 200px;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/translate-ad-ad754e21fea72c69a11e1000903e1f848812bc20e3f1033d6e44f15c249dcd61.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+}
+.two{
+    padding: 50px 70px 100px;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+.two .boss{
+    margin: 10px 0px;
+    width: 100%;
+
+}
+.two.head{
+    width: 100%;
+    margin: 20px 0px;
+    justify-content:space-between ;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head a{
+    padding: 0px 10px;
+    font-size: 18px;
+    text-decoration: none ;
+    border: 1px solid rgb(63, 122, 190);
+    color: rgb(63, 122, 190);
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.1s linear;
+    
+}
+.head a:hover{
+    background-color: rgb(63, 122, 190) ;
+    color: white;
+}
+.head p{
+        font-size: 20px;
+}
+
+.head p{
+    font-size: 25px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px ;   
+}
+.items {
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+}
+.item{
+    width: 23%;
+    margin: 20px auto;
+    height: 300px;
+
+}
+.item img{
+    width: 100%;
+    height: 60%;
+
+}
+.item a{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+.item a:hover{
+    color:  rgb(63, 122, 190);
+}
+.item p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color: rgb(63, 122, 190); ;
+}
+.item i{
+    color: gold;
+    font-size: 10px;
+}
+.item .price{
+    font-size: 14px;
+    font-weight: 700;
+}
+.link {
+    padding: 50px 70px 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+} 
+.link .start{
+    width: 25%;
+}
+.link .start ul li{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+
+}
+.link .start ul li i {
+    font-size: 25px;
+    background-color: white;
+    padding:0;
+    color:  rgb(63, 122, 190);;
+}
+.link .start i{
+    font-size: 15px;
+    background-color: white;
+    padding:0;
+    color:  rgb(63, 122, 190);;
+
+}
+.link .medium{
+    width: 20%;
+    margin: 2px 2px 2px;
+}
+.link .medium ul li{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    
+}
+.link .medium ul li i {
+    font-size: 25px;
+    background-color: white;
+    padding:0;
+    color:  rgb(63, 122, 190);
+}
+.link .medium i{
+    font-size: 25px;
+    background-color: white;
+    padding:0;
+    color:  rgb(63, 122, 190);
+
+}
+.lasts{
+    width: 100%;
+}
+.lasts .last{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 22px 80px;
+    margin-top: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last a{
+    color: rgb(63, 122, 190);
+    font-size: 14px;
+    margin: 0px 10px;
+    
+}
